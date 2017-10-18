@@ -276,7 +276,7 @@ define(function (require) {
                     var pageUrl = util.parseCacheUrl(location.href);
                     pageUrl = pageUrl.replace(/\#.*?$/, '');
                     location.href = 'http://m.baidu.com/sf?pd=life_cookbook&openapi=1&dspName=iphone&from_sf=1&resource_id=35722&word='
-                        + encodeURIComponent(pageUrl) + '&title=菜谱语音助手&ms=1';
+                        + encodeURIComponent(pageUrl) + '&title=菜谱语音助手&ms=1&tn=tangram';
                 }
                 // 未开启唤醒、设置唤醒失败或者用户拒绝设置的情况
                 // 弹窗提示
