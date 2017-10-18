@@ -227,7 +227,7 @@ define(function (require) {
 
     var MAIN_HTML = ''
         + '<div class="mip-cook-voicerecipe-wrapper">'
-        +     '<button type="button" data-action="start">开始语音做饭</button>'
+        +     '<button type="button" data-action="start">开始语音烹饪</button>'
         +     '<div class="mip-cook-voicerecipe-tips" style="display: none">小度语音助手，彻底解放你的双手</div>'
         + '</div>';
 
